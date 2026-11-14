@@ -51,7 +51,7 @@
             font-family: 'Lora', Georgia, serif;
             background-color: #f2eee3;
             color: #1c1a18;
-            background-image: linear-gradient(rgba(242, 238, 227, 0.85), rgba(242, 238, 227, 0.85)), url('imagenes/TWD_fondo.png');
+            background-image: linear-gradient(rgba(242, 238, 227, 0.82), rgba(242, 238, 227, 0.82)), url('imagenes/TWD_fondo.png');
             background-size: cover;
             background-position: center;
             background-attachment: fixed;
@@ -413,16 +413,13 @@
         <span id="toast-msg" class="text-xs font-mono font-bold uppercase tracking-wider">Operación registrada en el sistema.</span>
     </div>
 
-    <!-- Rulebook Footer -->
-    <footer class="mt-auto border-t-2 border-parchment-400 py-8 text-center text-xs font-mono text-charcoal-800 bg-parchment-200 space-y-4 px-4">
-        <div class="hazard-stripes max-w-xs mx-auto mb-3"></div>
-        
-        <div class="max-w-4xl mx-auto text-[11px] leading-relaxed text-charcoal-800 opacity-90 border border-parchment-400 p-4 bg-parchment-100 shadow-inner">
-            <strong class="text-blood-900 block mb-1 font-bold uppercase">AVISO LEGAL Y PROPIEDAD INTELECTUAL:</strong>
-            Esta página es un proyecto comunitario gratuito y sin ánimo de lucro creado para coordinar una campaña de rol de <em>The Walking Dead Universe</em>. No está afiliada, patrocinada ni aprobada oficialmente por los titulares de la marca. The Walking Dead es marca registrada de Robert Kirkman, LLC, Skybound Entertainment y AMC Film Holdings LLC. <em>The Walking Dead Universe Roleplaying Game</em> es propiedad de Free League Publishing (Fria Ligan AB), con edición en español a cargo de Devir Iberia. Los textos de las crónicas, personajes y mapas creados o adaptados para esta campaña se comparten exclusivamente con fines lúdicos y descriptivos dentro de esta comunidad, respetando los derechos de sus autores originales.
+    <!-- Rulebook Footer (Compact, normal document flow instead of fixed) -->
+    <footer class="mt-auto border-t border-parchment-400 py-3 text-center text-[10px] font-mono text-charcoal-800 bg-parchment-200/90 space-y-2 px-4">
+        <div class="max-w-4xl mx-auto text-[9px] leading-tight text-charcoal-800 opacity-90 border border-parchment-400 p-2.5 bg-parchment-100/80 shadow-inner">
+            <strong class="text-blood-900 font-bold uppercase">AVISO LEGAL:</strong>
+            Proyecto comunitario sin ánimo de lucro para rol de <em>The Walking Dead</em>. No afiliado con Skybound, AMC o Free League. The Walking Dead es marca registrada de Robert Kirkman, LLC.
         </div>
-
-        <p class="font-bold text-[10px] tracking-widest text-blood-900">THE WALKING DEAD UNIVERSE ROLEPLAYING GAME // WEST MARCHES PROTOCOL &copy; 2026.</p>
+        <p class="font-bold tracking-widest text-[9px] text-blood-900">THE WALKING DEAD UNIVERSE ROLEPLAYING GAME // WEST MARCHES PROTOCOL &copy; 2026.</p>
     </footer>
 
     <!-- JavaScript Logic -->
